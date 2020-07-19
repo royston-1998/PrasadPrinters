@@ -1,0 +1,184 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7fc;
+}
+
+/* GENERAL CSS */
+.contentSpacing{
+  padding: 3%;
+}
+.wallpaper{
+  opacity: 0.7;
+}
+.contentCardHeader{
+  padding: 15% 40% 1% 1%;
+}
+.subheading{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.contentSideHeading{
+  padding: 5% 12% 4% 12%;
+  text-align: justify;
+  line-height: 2;
+  font-size: 1rem;
+}
+
+
+
+
+/* INTRODUCTION */
+.introContainer{
+  /* background-image: radial-gradient(circle, #f1c550, #edc55d, #e9c569, #e4c574, #e0c57f); */
+  /* background-color: #f1c550; */
+  background-color: #37384e;
+  color: #53354a;
+}
+
+
+/* INTRODUCTION TITLE */
+.brandName{
+  font-size: 2rem;
+  text-align: justify;
+}
+.tagLine{
+  font-size: 1rem;
+}
+.options{
+  text-align: right;
+  font-size:1.2rem;
+  padding: 0 18px;
+}
+.wofixedTop{
+  padding: 1% 8%;
+  background-color: #37384e;
+}
+.fixed-top{
+  padding: 1% 8%;
+  background-color: #37384e;
+}
+
+/* INTRODUCTION CONTENT */
+.visitBranchText{
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+.requestButton{
+  font-size: 1.2rem;
+}
+
+
+/* FEATURES */
+.featureContainer{
+  padding: 6% 15%;
+}
+
+/* FEATURES ICON */
+.iconImageSize {
+  font-size: 1.5rem;
+}
+.icon{
+  padding-top: 2rem;
+  color:  #f73859;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* FEATURES WORDINGS */
+h4{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+h6{
+  font-size: 1.1rem;
+}
+
+/* CREATIVE SLIDER */
+.creativeSlider{
+  background-color: #c9d6df;
+  line-height: 9;
+  padding: 9% 8%;
+  color: #53354a;
+}
+
+/* CONTACT US */
+.contactUs{
+  background-color: #222831;
+  padding: 4% 5%;
+  color: white;
+}
+.dash{
+  background-color:white;
+}
+.contactAddress{
+  padding: 3% 10%;
+  font-size: 1rem;
+  line-height: 2;
+}
+.right-side{
+  text-align: right;
+}
+.left-side{
+  text-align: left;
+}
+
+/* FOOTER */
+.footer a{
+  color:#222831;
+  font-weight: bold;
+}
+
+/* GO GREEN-POLICY */
+.goGreenPolicy{
+  padding: 5% 13%;
+  background-color: #a2de96;
+  line-height: 2;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+
+/* QUALITY ASSURANCE */
+.qualityAssurance{
+  color : white;
+  padding: 5% 13%;
+  line-height: 2;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+/* FACILITIES */
+.facilities{
+  padding-top: 6%;
+}
+
+.facilities-full{
+  padding: 1% 15% 6% 15%;
+}
+.facilityHeader{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.facilityContent{
+  padding: 1% 3%;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .indexStart{
+    padding-top: 15%;
+  }
+
+
+
+}
